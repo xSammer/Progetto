@@ -1,0 +1,104 @@
+/* ! Basic Style */
+body{
+    background: url(background.jpg);
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+}
+
+a{text-decoration: none;}
+
+h1, h2, h3, h4, h5, p, span{color: white; padding-bottom: 10px;}
+
+
+/* ! Helpers */
+
+.big-text{font-size: 70px; font-weight: 900;}
+.med-text{font-size: 40px; font-weight: 700;}
+.normal-text{font-size: 20px; font-weight: 500;}
+.small-text{font-size: 13px; font-weight: 200;}
+
+.intro-text{text-transform: uppercase; font-size: 30px; font-weight: bold; padding: 2px; margin: 0;}
+
+/* ! Container */
+
+.container{ 
+    height: 600px;
+    width: 65%;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+/* ! Header */
+
+.header{text-align: center}
+
+.header>img{width: 200px;}
+
+/* ! Navigation Bar */
+
+.nav{
+    height: 33px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    background: rgba(169, 169, 169, 0.596);
+    border-radius: 5px;
+    margin: 0 100px;
+}
+
+.menu{
+    margin: 3px; 
+    padding: 0; 
+    text-align: center;
+}
+
+li{
+    font-weight: bolder;
+    list-style-type: none;
+    display: inline-block;
+    background: rgba(117, 111, 111, 0.219);
+    margin-inline: 30px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/* ! Main section */
+
+.main{margin: 0 100px;}
+
+.article>h2{
+    font-weight: 700;
+    margin: 15px 0 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.article>p{
+    font-weight: 400;
+    margin: 2px 0;
+    padding-bottom: 5px;
+}
+
+.article>input{
+    display: inline-block;
+}
+
+.sale1{
+    margin: 0;
+    padding: 10px;
+    border: 1px solid rgb(84, 177, 214);
+    background-color: rgb(84, 177, 214);
+    border-radius: 5px;
+    width: 50px;
+}
+
+.sale2{
+    margin: 0 0 15px 0;
+    padding: 10px;
+    border: 1px solid rgb(214, 162, 84);
+    background-color: rgb(214, 162, 84);
+    border-radius: 5px;
+    width: 100px;
+}
